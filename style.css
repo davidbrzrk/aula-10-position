@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .box {
+    border: solid 3px black;
+    width: 50vw;
+    height: 130vh;
+  }
+  
+  .item1,
+  .item2 {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .item1 {
+    background-color: red;
+    width: 100vw;
+    position: fixed;
+  }
+  
+  .item2 {
+    background-color: green;
+    border-radius: 50%;
+    position: fixed;
+    top: 250px;
+    left: 310px;
+  }
+  
